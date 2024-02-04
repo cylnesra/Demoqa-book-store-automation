@@ -3,8 +3,8 @@ package org.example.pages;
 import org.example.base.BasePage;
 import org.openqa.selenium.WebDriver;
 
-import static org.example.Collection.LocatorsCollection.goToBookStoreButton;
-import static org.example.Collection.LocatorsCollection.logOutButtonLocator;
+import static org.example.Collection.LocatorsCollection.*;
+import static org.example.Collection.LocatorsCollection.*;
 
 public class ProfilePage  extends BasePage {
     BooksPage booksPage;
