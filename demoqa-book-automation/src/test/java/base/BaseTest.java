@@ -22,8 +22,8 @@ public class BaseTest {
        driver.get("https://demoqa.com/login");
        //driver.manage().window().maximize();
    }
-//   @AfterAll
-//   public void tearDown(){
-//       driver.quit();
-//   }
+    @AfterAll
+   public void tearDown(){
+      driver.quit();
+   }
 }
