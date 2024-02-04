@@ -1,0 +1,8 @@
+org/example/pages/LoginPage.class
+org/example/pages/BooksPage.class
+org/example/Main.class
+org/example/base/BasePage.class
+org/example/pages/ProfileDetailPage.class
+org/example/pages/ProfilePage.class
+org/example/Collection/LocatorsCollection.class
+org/example/logger/Log.class
