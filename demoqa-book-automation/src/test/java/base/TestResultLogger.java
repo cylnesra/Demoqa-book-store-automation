@@ -7,9 +7,7 @@ import org.junit.jupiter.api.extension.TestWatcher;
 import java.util.Optional;
 
 public class TestResultLogger implements TestWatcher {
-    //The TestWatcher API was used to monitor executed tests and for logging operations.
-    //The TestWatcher API is an interface. Once we implemented it,
-    //we overridden its methods and populated them with the actions we needed to perform.
+
     Log log = new Log();
     @Override
     public void testDisabled(ExtensionContext context, Optional<String> reason) {
